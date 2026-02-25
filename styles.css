@@ -221,6 +221,7 @@ h1, h2 { text-align: center; }
 }
 
 .modal {
+  
   display: none;
   position: fixed; inset: 0;
   background: rgba(0,0,0,.45);
@@ -271,3 +272,6 @@ button:hover { background-color: #2980b9; }
   border-bottom: 1px dashed #eee; padding: 8px 0;
 }
 .res-item:last-child { border-bottom: 0; }
+
+
+
