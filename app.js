@@ -10,9 +10,9 @@ const SEATS_BY_ROOM = {
 // 고정 좌석 설정
 const fixedSeatsByRoom = {
   "210호": {
-};
+},
   "106호": {
-};
+},
   "208호": {}
 };
 
@@ -376,4 +376,5 @@ renderRoomTabs();
 renderWeekTabs();
 
 attachBookingsListener();
+
 
