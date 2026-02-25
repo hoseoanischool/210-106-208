@@ -1,10 +1,10 @@
 // ====== 설정 ======
-const ROOMS = ["210호", "106호", "208호"];
+const ROOMS = ["210호", "106호", "114호"];
 
 const SEATS_BY_ROOM = {
   "210호": Array.from({ length: 35 }, (_, i) => String(i + 1)),
   "106호": Array.from({ length: 32 }, (_, i) => String(i + 1)),
-  "208호": Array.from({ length: 36 }, (_, i) => String(i + 1)),
+  "114호": Array.from({ length: 30 }, (_, i) => String(i + 1)),
 };
 
 // 고정 좌석 설정
@@ -29,7 +29,7 @@ const fixedSeatsByRoom = {
   "106호": {
 "14": "김정민"
 },
-  "208호": {}
+  "114호": {}
 };
 
 // 야작 금지 인원 설정
@@ -390,9 +390,4 @@ $confirmationCloseBtn.onclick = closeConfirmationModal;
 
 renderRoomTabs();
 renderWeekTabs();
-
 attachBookingsListener();
-
-
-
-
