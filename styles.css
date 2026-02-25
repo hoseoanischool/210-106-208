@@ -220,7 +220,6 @@ h1, h2 { text-align: center; }
   opacity: .9;
 }
 
-
 .modal {
   display: none;
   position: fixed; inset: 0;
@@ -271,7 +270,4 @@ button:hover { background-color: #2980b9; }
   align-items: center; justify-content: space-between;
   border-bottom: 1px dashed #eee; padding: 8px 0;
 }
-
 .res-item:last-child { border-bottom: 0; }
-
-
